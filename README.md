@@ -4,7 +4,7 @@ Se listan pequeños ejemplos y ejercicios del lenguaje Go
 1. [DOWNLOAD GO](#download-go)
 2. [Installation in Linux](#installation-in-linux)
 3. [Creating Go Workspace](#creating-go-workspace)
-    -[Optional directory](#optional-directory)
+    * [Optional directory](#optional-directory)
 4. [Global variables](#glonal-variables)
 5. [Creating Hello Word](#hello-world)
 
@@ -25,17 +25,17 @@ Ahora crearemos nuestro espacio de trabajo, normalmente este espacio usa dos dir
 
 Normalmente nuestro `Go_workspace` se ubica en `$HOME` por lo que nuestro arbol seria:
 
-* HOME
-    * Go_workspace
+- HOME
+    - Go_workspace
 
 Example 
 `mkdir ~/Go_workspace` o `mkdir $HOME/Go_workspace` cualquiera de las dos instrucciones deberia de funcionar  
 
 Ya que tenemos nuestro directorio de trabajo ahora es crear nuestros directorios secundarios `src` y `bin`  
 
-* Go_workspace
-    * src: el cual contiene los archivos fuente de Go
-    * bin: el cual contiene los ejecutables y las herramientas de Go
+- Go_workspace
+    - src: el cual contiene los archivos fuente de Go
+    - bin: el cual contiene los ejecutables y las herramientas de Go
 
 Example 
 ```bash
@@ -48,9 +48,9 @@ Si se trabajo con github en varios proyectos es recomendable usar un directorio 
 
 Tambien podemos crear un un directorio con el usuario con el que se este trabajando un proyecto determinado 
 
-* src
-    * github.com(optional) 
-        * NombreDeUsuario(optional) 
+- src
+    - github.com(optional) 
+        - NombreDeUsuario(optional) 
 
 Example 
 ```bash
@@ -85,10 +85,8 @@ Para verificar la instalación usamos el comando `go version` el cual nos listar
 
 ```bash 
 go version
-
-Output 
-go version go1.17.2 linux/amd64
 ```
+`Output >> go version go1.17.2 linux/amd64`  
 
 ### __Creating Hello World__  
 
@@ -118,14 +116,8 @@ Ahora para correr usamos la siguiente instrucción
 
 ```bash 
 go run hola.go
-
-Output 
-Hola Mundo
 ```
-
-
-The first is download from 
-## 
+`Output >> Hola Mundo`  
 
 <!-- Enlaces requeridos por el Readme -->
 [DOWNLOADGO]: https://golang.org/dl/
