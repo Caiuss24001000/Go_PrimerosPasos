@@ -13,7 +13,7 @@ Visita [https://golang.org/dl/][DOWNLOADGO] para descargar GO desde su pagina of
 
 
 ### __Installation in Linux__  
-Extraer el archivo que se descargo previamente en el directorio `/usr/local`. Se recomienda borrar el contanido de la dirección `/usr/local/go` en caso de una instalación previa  
+Extraer el archivo que se descargo previamente en el directorio `/usr/local`. Se recomienda borrar el contenido de la dirección `/usr/local/go` en caso de una instalación previa  
 
 **Example**  
 
