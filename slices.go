@@ -23,7 +23,7 @@ func main(){
 	//Convertir un arreglo a slice 
 	arreglo := [3]int {1,2,3}
 	//esto se conoce como slicing
-	slice = arreglo[:]			//Se define la posicion a imprimir [inicial:final]
+	slice = arreglo[:]			//Se define la posicion a imprimir [inicial:final], si no se definen se toma como el primer o ultimo elemento segun corresponda 
 
 	for i := 0; i < len(arreglo)+1; i++ {	//Se agrega +1 para tomar el ultimo elemento del arreglo
 		slice = arreglo[:i]
