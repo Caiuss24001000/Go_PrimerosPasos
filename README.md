@@ -5,7 +5,7 @@ Se listan pequeños ejemplos y ejercicios del lenguaje Go
 2. [Installation in Linux](#installation-in-linux)
 3. [Creating Go Workspace](#creating-go-workspace)
     * [Optional directory](#optional-directory)
-4. [Global variables](#glonal-variables)
+4. [Global variables](#global-variables)
 5. [Creating Hello Word](#hello-world)
 
 ### __DOWNLOAD GO__  
